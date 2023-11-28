@@ -14,6 +14,10 @@ const AppRoutes = [
   {
     path: '/fetch-data',
     element: <FetchData />
+  },
+  {
+    path: '/rank-items',
+    element: <RankItems />
   }
 ];
 
