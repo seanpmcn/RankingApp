@@ -8,7 +8,7 @@ const RankingGrid = ({items, imgArr}) => {
 
     function pushCellMarkupToArr(cellCollection, rankNum, rowLabel) {
         if(rankNum > 0) {
-            // var item = items.find(o => o.ranking === rankNum);
+            var item = items.find(o => o.ranking === rankNum);
             cellCollection.push(<div id={`rank-${rankNum}`} className="rank-cell"></div>);
         }
         else {

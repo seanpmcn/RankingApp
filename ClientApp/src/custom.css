@@ -33,3 +33,36 @@ code {
   width: 100%;
   height: 100%;
 }
+
+.rankings{
+  width:  880px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  justify-items: center;
+  margin-bottom: 15px;
+}
+
+.rank-row{
+  height: 100px;
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 3px;
+  margin-bottom: 4px3;
+}
+
+.top-tier {
+  background-color: yellow;
+}
+
+.middle-tier {
+  background-color: greenyellow;
+}
+
+.bottom-tier {
+  background-color: brown;
+}
+
+.worst-tier {
+  background-color: red;
+}
